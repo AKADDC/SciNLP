@@ -40,7 +40,7 @@ If you use this dataset, please cite the following works:
 ```bibtex
 
 @inproceedings{scinlp,
-  author    = {Decheng Duan and Yingyi Zhang Nayeem and Jitong Peng and Chengzhi Zhang},
+  author    = {Decheng Duan and Yingyi Zhang and Jitong Peng and Chengzhi Zhang},
   title     = {SciNLP: A Domain-Specific Benchmark for Full-Text Scientific Entity and Relation Extraction in NLP},
   booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
   year      = {2025},
