@@ -19,11 +19,46 @@ It contains four files:
 - **train/test/dev.json**: Train, dev and test data set of SciNLP data set.  
 - **KG_triple.txt**: Triples extracted from HGERE model based on SciNLP training
 
+### Data format
+
+The data format for our models is JSON. Each line of the input file contains one document in the following format.
+
+```
+{
+  # document ID (please make sure doc_key can be used to identify a certain document)
+  "doc_key": "2020.acl-main.21",
+
+  # sentences in the document, each sentence is a list of tokens
+  "sentences": [
+    [...],
+    [...],
+    ["Traditional", "Question", "Generation", "(", "TQG", ")", ...],
+    ...
+  ],
+
+  # entities (boundaries and entity type) in each sentence
+  "ner": [
+    [...],
+    [...],
+    [[2, 6, "task"], [14, 14, "method"], ...], #the boundary positions are indexed in the document level
+    ...,
+  ],
+
+  # relations (two spans and relation type) in each sentence
+  "relations": [
+    [...],
+    [...],
+    [[2, 6, 14, 14, "evaluatedOn"], [14, 14, 12, 13, "UsedFor"], ...],
+    ...
+  ]
+}
+```
+
 ## 🛠️ Preparation Before Starting
 
-Before using the SurveyGen framework, please ensure you have the following resources ready:
+Before using the SciNLP Code, please ensure you have the following resources ready:
 
-3. **LLM API access** — Apply for access to the LLMs or deploy the LLMs locally.  
+1**LLM API access** — Apply for access to the LLMs or deploy the LLMs locally.  
 
 ## 💻 Code for LLMs-Baselines
 
