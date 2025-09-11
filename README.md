@@ -77,7 +77,7 @@ If you use this dataset, please cite the following works:
 @inproceedings{scinlp,
   author    = {Decheng Duan, Yingyi Zhang, Jitong Peng and Chengzhi Zhang},
   title     = {SciNLP: A Domain-Specific Benchmark for Full-Text Scientific Entity and Relation Extraction in NLP},
-  booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP2025)},
   year      = {2025},
   address   = {Suzhou, China}
 }
