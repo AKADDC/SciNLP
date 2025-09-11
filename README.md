@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
-This is the official repository for the dataset and code of the paper:  ["SciNLP: A Domain-Specific Benchmark for Full-Text Scientific Entity and Relation Extraction in NLP"](),  *accepted at **EMNLP 2025** (Main Conference)*.
+This is the official repository for the dataset and code of the paper:  ["SciNLP: A Domain-Specific Benchmark for Full-Text Scientific Entity and Relation Extraction in NLP"](https://arxiv.org/abs/2509.07801),  *accepted at **EMNLP 2025** (Main Conference)*.
 
 
 ## 📚 SciNLP
