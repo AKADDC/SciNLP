@@ -17,11 +17,11 @@ The dataset can be accessed at:  [SciNLP](https://github.com/AKADDC/SciNLP)
 It contains four files:  
 
 - **train/test/dev.json**: Train, dev and test data set of SciNLP data set.  
-- **KG_triple.txt**: Triples extracted from HGERE model based on SciNLP training
+- **KG_triples.txt**: Triples extracted from [the ACL Anthology](https://aclanthology.org/) PDFs by using the [HGERE](https://github.com/yanzhh/HGERE) model based on SciNLP training
 
 ### Data format
 
-The data format for our models is JSON. Each line of the input file contains one document in the following format.
+The data format for models is JSON. Each line of the input file contains one document in the following format.
 
 ```
 {
@@ -32,7 +32,7 @@ The data format for our models is JSON. Each line of the input file contains one
   "sentences": [
     [...],
     [...],
-    ["Traditional", "Question", "Generation", "(", "TQG", ")", ...],
+    ["Prior", "works", "performed", "SQG", "on", "CoQA", ...],
     ...
   ],
 
@@ -40,7 +40,7 @@ The data format for our models is JSON. Each line of the input file contains one
   "ner": [
     [...],
     [...],
-    [[2, 6, "task"], [14, 14, "method"], ...], #the boundary positions are indexed in the document level
+    [[3, 3, "task"], [5, 5, "dataset"], ...], #the boundary positions are indexed in the document level
     ...,
   ],
 
@@ -48,19 +48,19 @@ The data format for our models is JSON. Each line of the input file contains one
   "relations": [
     [...],
     [...],
-    [[2, 6, 14, 14, "evaluatedOn"], [14, 14, 12, 13, "UsedFor"], ...],
+    [[3, 3, 5, 5, "evaluatedOn"] ...],
     ...
   ]
 }
 ```
 
-## 🛠️ Preparation Before Starting
-
-Before using the SciNLP Code, please ensure you have the following resources ready:
-
-1**LLM API access** — Apply for access to the LLMs or deploy the LLMs locally.  
-
 ## 💻 Code for LLMs-Baselines
+
+Our used supervised methods include:
+
+- [PURE](https://github.com/princeton-nlp/PURE)
+- [PL-Marker](https://github.com/thunlp/PL-Marker)
+- [HGERE](https://github.com/yanzhh/HGERE)
 
 
 ## 📜 License
@@ -82,11 +82,11 @@ If you use this dataset, please cite the following works:
   address   = {Suzhou, China}
 }
 
-    @Misc{acl_anthology_corpus,
-        author =       {Shaurya Rohatgi},
-        title =        {ACL Anthology Corpus with Full Text},
-        howpublished = {Github},
-        year =         {2022},
-        url =          {https://github.com/shauryr/ACL-anthology-corpus}
-    }
+@Misc{acl_anthology_corpus,
+    author =       {Shaurya Rohatgi},
+    title =        {ACL Anthology Corpus with Full Text},
+    howpublished = {Github},
+    year =         {2022},
+    url =          {https://github.com/shauryr/ACL-anthology-corpus}
+}
 
