@@ -9,9 +9,9 @@ This is the official repository for the dataset and code of the paper:  ["SciNLP
 
 ## Attention❗❗❗ 
 
-We corrected the statistical error information of the previous data set, and now the SciNLP data set contains 6409 fine-grained entities and 1648 relationships.
+We corrected the statistical error information of the previous paper, and now the SciNLP data set contains 6409 fine-grained entities and 1648 relationships.
 
-Due to the previous omissions, we made mistakes in the process of HGERE experiment, which led to a big deviation between the NER data index of HGERE and the actual experimental results. We have started to revise the original paper. If the existing results cannot be reproduced, please wait for us to update the latest experimental results.
+Due to the previous omissions, we made mistakes in the process of [HGERE](https://github.com/yanzhh/HGERE)  experiment, which led to a big deviation between the NER metric index of HGERE and the actual experimental results. We have started to revise the original paper. If the existing results cannot be reproduced, please wait for us to update the latest experimental results.
 
 
 ## 📚 SciNLP
