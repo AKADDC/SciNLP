@@ -5,8 +5,13 @@
 # SciNLP: A Domain-Specific Benchmark for Full-Text Scientific Entity and Relation Extraction in NLP
 [![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-
 This is the official repository for the dataset and code of the paper:  ["SciNLP: A Domain-Specific Benchmark for Full-Text Scientific Entity and Relation Extraction in NLP"](https://arxiv.org/abs/2509.07801),  *accepted at **EMNLP 2025** (Main Conference)*.
+
+## Attention❗❗❗ 
+
+We corrected the statistical error information of the previous data set, and now the SciNLP data set contains 6409 fine-grained entities and 1648 relationships.
+
+Due to the previous omissions, we made mistakes in the process of HGERE experiment, which led to a big deviation between the NER data index of HGERE and the actual experimental results. We have started to revise the original paper. If the existing results cannot be reproduced, please wait for us to update the latest experimental results.
 
 
 ## 📚 SciNLP
