@@ -7,12 +7,6 @@
 
 This is the official repository for the dataset and code of the paper:  ["SciNLP: A Domain-Specific Benchmark for Full-Text Scientific Entity and Relation Extraction in NLP"](https://arxiv.org/abs/2509.07801),  *accepted at **EMNLP 2025** (Main Conference)*.
 
-## Attention❗❗❗ 
-
-We corrected the statistical error information of the previous paper, and now the SciNLP data set contains 6409 fine-grained entities and 1648 relationships.
-
-Due to the previous omissions, we made mistakes in the process of [HGERE](https://github.com/yanzhh/HGERE)  experiment, which led to a big deviation between the NER metric index of HGERE and the actual experimental results. We have started to revise the original paper. If the existing results cannot be reproduced, please wait for us to update the latest experimental results.
-
 
 ## 📚 SciNLP
 
@@ -59,6 +53,14 @@ The data format for models is JSON. Each line of the input file contains one doc
 }
 ```
 
+### F1 scores
+
+| **Methods**                                      | **NER** | **Rel** | **Rel+** | **RE** |
+| ------------------------------------------------ | ------- | ------- | -------- | ------ |
+| [PURE](https://github.com/princeton-nlp/PURE)    | 60.25   | 59.93   | 58.35    | 59.93  |
+| [PL-Marker](https://github.com/thunlp/PL-Marker) | 67.15   | 61.46   | 59.24    | 62.16  |
+| [HGERE](https://github.com/yanzhh/HGERE)         | 79.53   | 49.28   | 47.64    | -      |
+
 ## 💻 Code for LLMs-Baselines
 
 Our used supervised methods include:
@@ -66,7 +68,6 @@ Our used supervised methods include:
 - [PURE](https://github.com/princeton-nlp/PURE)
 - [PL-Marker](https://github.com/thunlp/PL-Marker)
 - [HGERE](https://github.com/yanzhh/HGERE)
-
 
 ## 📜 License
 
