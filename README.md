@@ -57,8 +57,8 @@ The data format for models is JSON. Each line of the input file contains one doc
 
 | **Methods**                                      | **NER** | **Rel** | **Rel+** | **RE** |
 | ------------------------------------------------ | ------- | ------- | -------- | ------ |
-| [PURE](https://github.com/princeton-nlp/PURE)    | 60.25   | 59.93   | 58.35    | 59.93  |
-| [PL-Marker](https://github.com/thunlp/PL-Marker) | 67.15   | 61.46   | 59.24    | 62.16  |
+| [PURE](https://github.com/princeton-nlp/PURE)    | 62.86   | 29.93   | 29.46    | 29.17  |
+| [PL-Marker](https://github.com/thunlp/PL-Marker) | 63.72   | 32.09   | 30.73    | 36.87  |
 | [HGERE](https://github.com/yanzhh/HGERE)         | 79.53   | 49.28   | 47.64    | -      |
 
 ## 💻 Code for LLMs-Baselines
